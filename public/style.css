@@ -1,0 +1,23 @@
+#root {
+  display: flex;
+  justify-content: center;
+}
+nav {
+  display: flex;
+  justify-content: center;
+}
+th {
+  background-color: lightcoral;
+  font-family: Arial, Helvetica, sans-serif;
+}
+.grey {
+  background-color: lightgray;
+}
+thead {
+  display: table-header-group;
+}
+tbody {
+  display: block;
+  height: 40rem;
+  overflow-y: scroll;
+}
